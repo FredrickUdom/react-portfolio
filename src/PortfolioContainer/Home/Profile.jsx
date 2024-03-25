@@ -41,7 +41,7 @@ function Profile() {
                                 steps={[
                                     "Ethusiastic Techie 😎",
                                     3000,
-                                    "NestJs/NodeJsBackend Dev 💻",
+                                    "NestJs Backend Dev 💻",
                                     3000,
                                     "Html & Css Web Dev",
                                     3000,
@@ -50,7 +50,18 @@ function Profile() {
                                 ]}
                                 />
                             </h3>
+                            <span className="profile-role-tagline">
+                                Knack of building application with frontend and backend operations.
+                            </span>
                         </span>
+                    </div>
+                    <div className="profile-options">
+                        <button className="btn btn-primary">
+                            {" "}
+                            Hire Me {" "}
+                        </button>
+                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn">Get Resume</button></a>
+                        
                     </div>
                 </div>
             </div>
