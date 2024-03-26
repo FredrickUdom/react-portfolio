@@ -8,6 +8,9 @@ function Profile() {
             <div className="profile-parent">
                 <div className="profile-details">
                     <div className="colz">
+                        <div className="colz-icon">
+
+                            
                         <a href="">
                             <i className="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
@@ -23,6 +26,7 @@ function Profile() {
                         <a href="">
                             <i className="fa fa-twitter" aria-hidden="true"></i>
                         </a>
+                        </div>
 
                     </div>
                     <div className="profile-details-name">
@@ -45,7 +49,7 @@ function Profile() {
                                     3000,
                                     "Html & Css Web Dev",
                                     3000,
-                                    "React Dev",
+                                    "MERN Stack Dev",
                                     3000,
                                 ]}
                                 />
@@ -62,6 +66,11 @@ function Profile() {
                         </button>
                         <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn">Get Resume</button></a>
                         
+                    </div>
+                </div>
+                <div className="profile-picture">
+                    <div className="profile-picture-background">
+
                     </div>
                 </div>
             </div>
