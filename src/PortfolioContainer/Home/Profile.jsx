@@ -1,4 +1,5 @@
 import Typical from "react-typical";
+import '../Home/Profile.css'
 
 function Profile() {
 

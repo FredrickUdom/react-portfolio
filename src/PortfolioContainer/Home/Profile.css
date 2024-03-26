@@ -3,4 +3,11 @@
     align-items: center;
     justify-content: center;
     height: 10%;
+    min-height: fit-content;
+    background: url('../../assets/Home/bg.webp');
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
 }
