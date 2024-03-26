@@ -81,8 +81,7 @@ body ::-webkit-scrollbar-thumb{
 }
 
 .btn-primary{
-  /* color: var(--white); */
-  color: white;
+  color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
   background-color: #1f2235;
@@ -95,8 +94,22 @@ body ::-webkit-scrollbar-thumb{
 }
 
 .highlighted-btn{
-  /* color: var(--white); */
-  color: white;
+  color: var(--white);
   font-size: 12px;
   background-color: #ff5823;
+}
+
+@media only screen and (max-width:568px){
+  .highlighted-btn{
+    z-index: -900;
+  }
+}
+
+.red-border{
+  border: 1px solid var(--error-message) !important;
+}
+.fade-in{
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
 }

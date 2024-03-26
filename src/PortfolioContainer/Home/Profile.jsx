@@ -32,7 +32,7 @@ function Profile() {
                     <div className="profile-details-name">
                         <span className="primary-text">
                             {" "}
-                            Hello, I'M <span className="highlighted-text">Fredick Udom</span>
+                            Hello, I'M <span className="highlighted-text">Fredrick Udom</span>
                         </span>
                     </div>
                     <div className="profile-details-role">
