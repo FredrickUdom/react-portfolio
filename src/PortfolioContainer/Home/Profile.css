@@ -5,6 +5,8 @@
     height: 10%;
     min-height: fit-content;
     background: url('../../assets/Home/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .profile-parent{
     display: flex;
@@ -57,11 +59,15 @@
     margin: 0 0px 0 100px;
 }
 .profile-picture-background{
-    height: 82%;
-    width: 82%;
+    height: 90%;
+    width: 90%;
     background: url('../../assets/Home/pix1.jpg');
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
+}
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
 }
