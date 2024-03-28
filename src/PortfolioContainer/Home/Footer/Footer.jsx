@@ -1,9 +1,10 @@
-import './Footer.css'
-const Footer = () => {
+// import './Footer.css'
+import FooterImg from '../../../assets/Home/footer.png'
+function Footer(){
     return (  
         <div className="footer-container">
             <div className="footer-parent">
-                <img src={require('../../../assets/Home/footer.png')} alt='image is here' />
+                <img src={FooterImg} alt='image is here' />
 
             </div>
         </div>

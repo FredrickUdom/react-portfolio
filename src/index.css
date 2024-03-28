@@ -9,31 +9,31 @@
   font-weight: normal;
 }
 @font-face {
-  font-family: Poppins Regular;
+  font-family: 'Poppins Regular';
   src: url('./assets/font/FontsFree-Net-Poppins-Regular.ttf');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: Poppins SemiBold;
+  font-family: 'Poppins SemiBold';
   src: url('./assets/font/FontsFree-Net-Poppins-SemiBold.ttf');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: Poppins ExtraBold;
+  font-family: 'Poppins ExtraBold';
   src: url('./assets/font/FontsFree-Net-Poppins-ExtraBold.ttf');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: Poppins Light;
+  font-family: 'Poppins Light';
   src: url('./assets/font/FontsFree-Net-Poppins-Light.ttf');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: Poppins Thin;
+  font-family: 'Poppins Thin';
   src: url('./assets/font/FontsFree-Net-Poppins-Thin.ttf');
   font-style: normal;
   font-weight: normal;
