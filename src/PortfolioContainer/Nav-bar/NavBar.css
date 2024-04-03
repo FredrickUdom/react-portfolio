@@ -1,5 +1,7 @@
 .navbar-area{
     background-color: #111E6C;
+    background-size: cover;
+    width:100vw;
     position: sticky;
     overflow-x: hidden;
     top: 0;
