@@ -2,13 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import pix2 from '../../assets/Home/pix2.jpg'
-import "./Section.css";
+import "./About.css";
 
-function Section() {
+function About() {
 	return (
-		<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<section class="ftco-about img ftco-section ftco-no-pb pt-5" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
+				
+			<h2 class="mb-4 text-center ">About Me</h2>
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex">
     					<div class="overlay"></div>
@@ -20,8 +22,8 @@ function Section() {
     			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5 context">
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate ">
-		            <h2 class="mb-4">About Me</h2>
-		           <div className="shadow px-3">
+		           
+		           <div className="shadow px-3 about">
 				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.</p>
 		            <ul class="about-info mt-4 px-md-0 px-2">
 		            	<li class="d-flex"><span>Name:</span> <span>Fredrick Udom</span></li>
@@ -36,10 +38,10 @@ function Section() {
 		        </div>
 	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
-              	<p class="mb-4">
+              	{/* <p class="mb-4">
 	                <span class="number" data-number="120">0</span>
 	                <span>Project complete</span>
-                </p>
+                </p> */}
                 <p><a href="./resume/myResume.pdf"target="blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
               </div>
 	          </div>
@@ -50,4 +52,4 @@ function Section() {
 	);
 }
 
-export default Section;
+export default About;

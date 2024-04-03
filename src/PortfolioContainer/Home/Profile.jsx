@@ -7,7 +7,7 @@ function Profile() {
 
     return (
         
-        <div className="profile-container" >
+        <div className="profile-container" id="profile">
 
             <div className="profile-parent">
 
@@ -79,7 +79,7 @@ function Profile() {
                     </div>
                 </div>
                 <div className="profile-picture">
-                    <div className="profile-picture-background">
+                    <div className="profile-picture-background" id="profile">
 
                     </div>
                 </div>

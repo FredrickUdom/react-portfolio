@@ -4,20 +4,21 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavBar.css'
 import profile from '../Nav-bar/NavBar.jsx'
+import About from '../About/About.jsx'
 
 
 function NavBar() {
   return (
     <Navbar expand="lg" className="navbar-area text-primary">
       <Container className='logo'>
-        <Navbar.Brand a href="{{profile}}">FREDRICK <br /><span>UDOM</span> </Navbar.Brand>
+        <Navbar.Brand a href="#profile">FREDRICK <br /><span>UDOM</span> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
             <div className="home">
-            <Nav.Link a href="{{profile}}">Home</Nav.Link>
+            <Nav.Link a href="{{profile}">Home</Nav.Link>
             </div>
-            <Nav.Link a href="#about">About</Nav.Link>
+            <Nav.Link a href="#about-section">About</Nav.Link>
             <Nav.Link a href="#skills">Skills</Nav.Link>
             <Nav.Link a href="#project">Projects</Nav.Link>
             <Nav.Link a href="#connect">Connect</Nav.Link>
