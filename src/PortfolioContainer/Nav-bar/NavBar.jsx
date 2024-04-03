@@ -7,16 +7,16 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="navbar-area text-primary" variant="light" sticky="top">
-      <Container className='nav-links'>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar expand="lg" className="navbar-area text-primary">
+      <Container className='logo'>
+        <Navbar.Brand a href="#home">Fredrick-Udom</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto text-primary">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#home">Projects</Nav.Link>
-            <Nav.Link href="#link">Connect</Nav.Link>
+          <Nav className="ml-auto linkText">
+            <Nav.Link a href="#home">Home</Nav.Link>
+            <Nav.Link a href="#link">About</Nav.Link>
+            <Nav.Link a href="#home">Projects</Nav.Link>
+            <Nav.Link a href="#link">Connect</Nav.Link>
             {/* <NavDropdown title="DropdownFred" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

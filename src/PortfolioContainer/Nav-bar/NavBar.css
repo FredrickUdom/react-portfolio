@@ -1,7 +1,15 @@
 .navbar-area{
     background-color: #111E6C;
+    position: sticky;
+    overflow-x: hidden;
+    top: 0;
+    
     
 }
-.nav-links{
-    color: white !important;
+.linkText a{
+    color: antiquewhite !important;
+    padding-right: 60px !important ;
+}
+.logo a{
+    color:antiquewhite;
 }

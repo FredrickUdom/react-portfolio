@@ -2,11 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10%;
+    height: 14%;
     min-height: fit-content;
     background: url('../../assets/img/gradient-blue-background-free-vector.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
+    
 }
 .profile-details{
     justify-content: center;
