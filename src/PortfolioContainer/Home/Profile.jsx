@@ -69,11 +69,12 @@ function Profile() {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button className="btn btn-primary hire-me">
+                        {/* <button className="btn btn-primary hire-me">
                             {" "}
                             Hire Me 😉{" "}
-                        </button>
-                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn get-resume">Get Resume 📑</button></a>
+                        </button> */}
+                        <a href=""><button className="btn highlighted-btn hire-me">Hire Me 😉</button></a>
+                        <a href="fredrickUdom_Resume.pdf" download=" Fredrick fredrickUdom_Resume.pdf"><button className="btn highlighted-btn get-resume">Resume 📑</button></a>
 
                     </div>
                 </div>

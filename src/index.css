@@ -77,7 +77,7 @@ body ::-webkit-scrollbar-thumb{
   width: 160px;
   cursor: pointer;
   transition:0.2s;
-  font-family: Poppins SeminBold;
+  font-family: "Poppins SeminBold";
 }
 
 .btn:active{
@@ -91,22 +91,23 @@ body ::-webkit-scrollbar-thumb{
   background-color: #1f2235;
 }
 
-/* .btn-primary:hover{
+.btn-primary:hover{
   color: aliceblue;
   border: 2px solid #ff5823 !important;
   background-color: #1f2235;
-} */
+}
 
-/* .highlighted-btn{
+.highlighted-btn{
   color: var(--white);
   font-size: 12px;
   background-color: #ff5823;
-} */
+}
 
 @media only screen and (max-width:568px){
   .highlighted-btn{
     z-index: -900;
   }
+  
 }
 
 .red-border{
