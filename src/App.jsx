@@ -5,6 +5,7 @@ import './App.css';
 import Profile from './PortfolioContainer/Home/Profile';
 import Footer from './PortfolioContainer/Home/Footer/Footer';
 import NavBar from './PortfolioContainer/Nav-bar/NavBar';
+import Section from './PortfolioContainer/Section/Section';
 
 
 
@@ -19,6 +20,7 @@ function App() {
      </button> */}
      <NavBar/>
      <Profile/>
+     <Section/>
      {/* <Footer/> */}
     
     </>

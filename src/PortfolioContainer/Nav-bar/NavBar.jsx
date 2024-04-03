@@ -9,17 +9,17 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="navbar-area text-primary">
       <Container className='logo'>
-        <Navbar.Brand a href="#home">FREDRICK <br /><span>UDOM</span> </Navbar.Brand>
+        <Navbar.Brand a href=".profile-container">FREDRICK <br /><span>UDOM</span> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
             <div className="home">
-            <Nav.Link a href="#home">Home</Nav.Link>
+            <Nav.Link a href=".profile-container">Home</Nav.Link>
             </div>
-            <Nav.Link a href="#link">About</Nav.Link>
-            <Nav.Link a href="#home">Skills</Nav.Link>
-            <Nav.Link a href="#link">Projects</Nav.Link>
-            <Nav.Link a href="#link">Connect</Nav.Link>
+            <Nav.Link a href="#about">About</Nav.Link>
+            <Nav.Link a href="#skills">Skills</Nav.Link>
+            <Nav.Link a href="#project">Projects</Nav.Link>
+            <Nav.Link a href="#connect">Connect</Nav.Link>
             {/* <NavDropdown title="DropdownFred" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -35,6 +35,9 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
+
+    
   );
 }
 
