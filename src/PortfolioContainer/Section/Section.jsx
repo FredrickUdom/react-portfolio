@@ -12,12 +12,12 @@ function Section() {
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center">
+	    				<div class="img pix2 d-flex align-self-stretch align-items-center">
 							<img src={pix2} alt="" srcset="" />
 	    				</div>
     				</div>
     			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5 context">
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate ">
 		            <h2 class="mb-4">About Me</h2>
