@@ -87,7 +87,27 @@
 .colz .colz-icon i:hover{
     transform: scale(1.5);
 }
-
+.hire-me{
+    background-color: white !important;
+    color: #111 !important;
+    padding: 12px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold;
+}
+.hire-me:hover{
+    border: 2px solid  black !important;
+   
+}
+.get-resume{
+    background-color: black !important;
+    color: white !important;
+    padding: 12px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold;
+}
+.get-resume:hover{
+    border: 2px solid  white;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:1110px){
     .profile-picture{
