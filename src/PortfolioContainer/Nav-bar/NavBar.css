@@ -10,6 +10,13 @@
     color: antiquewhite !important;
     padding-right: 60px !important ;
 }
-.logo a{
+.logo > a{
     color:antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.logo span{
+    padding-left: 30px;
 }
