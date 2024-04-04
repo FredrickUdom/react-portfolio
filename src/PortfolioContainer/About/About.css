@@ -22,9 +22,9 @@
 
 /* MEDIA QUERY */
 @media screen and (max-width:1110px){
-    /* .pix2 img{
+    .pix2 img{
         display: none;
-    } */
+    }
     .context{
         width: 100%;
     }
