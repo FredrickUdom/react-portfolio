@@ -10,7 +10,7 @@ function About() {
     	<div class="container">
     		<div class="row d-flex">
 				
-			<h2 class="mb-4 text-center ">About Me</h2>
+			<h2 class="mb-4 text-center pt-5">About Me</h2>
     			<div class="col-md-6 col-lg-6 d-flex">
     				<div class="img-about img d-flex">
     					<div class="overlay"></div>
