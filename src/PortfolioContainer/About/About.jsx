@@ -25,13 +25,13 @@ function About() {
 		           
 		           <div className="shadow px-3 about">
 				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.</p>
-		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span>Fredrick Udom</span></li>
-		            	<li class="d-flex"><span>Date of birth:</span> <span>December 12, </span></li>
-		            	<li class="d-flex"><span>Address:</span> <span>Uyo, Nigeria</span></li>
-		            	<li class="d-flex"><span>Zip code:</span> <span>520231</span></li>
-		            	<li class="d-flex"><span>Email:</span> <span>fredrickudom@gmail.com</span></li>
-		            	<li class="d-flex"><span>Phone: </span> <span>+234-705-767-9807</span></li>
+		            <ul class="about-info mt-4 px-md-0 px-2 ">
+		            	<li class="d-flex"><span>Name:</span> <span className='info'>Fredrick Udom</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span > <span className='info'>December 12, </span></li>
+		            	<li class="d-flex"><span>Address:</span> <span className='info'>Uyo, Nigeria</span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span className='info'>520231</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span className='info'>fredrickudom@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span className='info'>+234-705-767-9807</span></li>
 		            </ul>
 				   </div>
 		          </div>

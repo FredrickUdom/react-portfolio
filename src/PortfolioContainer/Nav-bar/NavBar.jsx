@@ -19,7 +19,7 @@ function NavBar() {
             <Nav.Link a href="{{profile}">Home</Nav.Link>
             </div>
             <Nav.Link a href="#about-section">About</Nav.Link>
-            <Nav.Link a href="#skills">Skills</Nav.Link>
+            <Nav.Link a href="#skills-section">Skills</Nav.Link>
             <Nav.Link a href="#project">Projects</Nav.Link>
             <Nav.Link a href="#connect">Connect</Nav.Link>
             {/* <NavDropdown title="DropdownFred" id="basic-nav-dropdown">
