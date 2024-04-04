@@ -84,13 +84,15 @@
 }
 
 .colz .colz-icon i{
-    color: var(--white);
-    padding: 8px;
+    color: black;
+    padding: 25px;
     padding-left: 0px;
+    font-size: 20px;
 }
 
 .colz .colz-icon i:hover{
     transform: scale(1.5);
+    color: white;
 }
 .hire-me{
     background-color: cornsilk !important;

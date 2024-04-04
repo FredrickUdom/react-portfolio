@@ -23,7 +23,7 @@ function About() {
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate ">
 		           
-		           <div className="shadow px-3 mt-5 about">
+		           <div className="shadow px-3 mt-5 about  ">
 				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.</p>
 		            <ul class="about-info mt-4 px-md-0 px-2 ">
 		            	<li class="d-flex"><span>Name:</span> <span className='info'>Fredrick Udom</span></li>

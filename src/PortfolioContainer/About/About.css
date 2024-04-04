@@ -6,7 +6,16 @@
 
 #about img{
     width: 70%;
+    
     /* height: 70%; */
+}
+
+.img img{
+    border-radius: 5px  !important;
+}
+.about{
+    border-radius: 9px !important;
+    padding:7px 0;
 }
 /* #about .justify-content-start{
    font-size: 15px; */
