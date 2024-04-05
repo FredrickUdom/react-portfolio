@@ -24,7 +24,7 @@ function About() {
 		          <div class="col-md-12 heading-section ftco-animate ">
 		           
 		           <div className="shadow px-3 mt-5 about  ">
-				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.</p>
+				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.   I am a season developer with 2 years of experience on ExpressJs/NestJs and Html, Css, Boostrap. I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.</p>
 					
 				   <p className='pt-3'>I am a seasoned web developer with more than 6 years of full-stack web engineering experience. My expertise in front-end and back-end web development enables me to create dynamic and user-friendly web applications. With my experience, I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.
 				   </p>
