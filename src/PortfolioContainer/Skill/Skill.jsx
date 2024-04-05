@@ -1,6 +1,7 @@
-import docker from '../../assets/img/docker.png'
-import nestjs from '../../assets/img/nestjs.png'
-import typescript from '../../assets/img/typescript_node.png'
+import docker from '../../assets/img/docker.png';
+import nestjs from '../../assets/img/nestjs.png';
+import typescript from '../../assets/img/typescript_node.png';
+import './Skill.css'
 const Skill = () => {
     return ( 
 
@@ -18,8 +19,8 @@ const Skill = () => {
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-md-4 text-center d-flex ftco-animate">
+			<div class="row justify-content-between ">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow">
 					<a href="#" class="services-1">
 						<span class="">
 							 <i class="flaticon-analysis"></i> 
@@ -31,7 +32,7 @@ const Skill = () => {
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow">
 					<a href="#" class="services-1">
 						<span class="icon">
 							<img src={typescript} alt="" srcset="" width="70%"/>
@@ -41,7 +42,7 @@ const Skill = () => {
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow">
 					<a href="#" class="services-1">
 						<span class="icon">
 							<img src={docker} alt="" srcset="" width="30%"/>

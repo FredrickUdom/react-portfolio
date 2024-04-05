@@ -1,0 +1,14 @@
+.col-md-3{
+    width: 32% !important;
+    border-radius: 5px;
+    line-height: 15px !important;
+    
+}
+.desc h3{
+    line-height: 30px !important;
+}
+.col-md-3:hover{
+    background: black;
+    color: aliceblue;
+    transition: ease-in-out 1s;
+}
