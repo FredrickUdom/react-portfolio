@@ -1,4 +1,6 @@
-
+import docker from '../../assets/img/docker.png'
+import nestjs from '../../assets/img/nestjs.png'
+import typescript from '../../assets/img/typescript_node.png'
 const Skill = () => {
     return ( 
 
@@ -21,7 +23,7 @@ const Skill = () => {
 					<a href="#" class="services-1">
 						<span class="">
 							 <i class="flaticon-analysis"></i> 
-							<img src="./images/nestjs.png" alt="" srcset="" width="70%"/>
+							<img src={nestjs} alt="" srcset="" width="70%"/>
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">I write Nestjs for building and developing scalable and maintainable
@@ -32,7 +34,7 @@ const Skill = () => {
 				<div class="col-md-4 text-center d-flex ftco-animate">
 					<a href="#" class="services-1">
 						<span class="icon">
-							<img src="./images/typescript_node.png" alt="" srcset="" width="70%"/>
+							<img src={typescript} alt="" srcset="" width="70%"/>
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">I write Typescript and Nodejs when working on a project in Nestjs</h3>
@@ -42,7 +44,7 @@ const Skill = () => {
 				<div class="col-md-4 text-center d-flex ftco-animate">
 					<a href="#" class="services-1">
 						<span class="icon">
-							<img src=" " alt="" srcset="" width="30%"/>
+							<img src={docker} alt="" srcset="" width="30%"/>
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">Using docker container for building, shipping, and running applications in
@@ -51,36 +53,6 @@ const Skill = () => {
 					</a>
 				</div>
 
-				<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
-							<span class="icon">
-								<i class="flaticon-analysis"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">App Developing</h3>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
-							<span class="icon">
-								<i class="flaticon-flasks"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Branding</h3>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
-							<span class="icon">
-								<i class="flaticon-ideas"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Product Strategy</h3>
-							</div>
-						</a>
-					</div> 
 			</div>
 		</div>
 	</section>

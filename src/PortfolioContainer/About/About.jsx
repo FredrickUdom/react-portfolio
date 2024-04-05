@@ -25,14 +25,17 @@ function About() {
 		           
 		           <div className="shadow px-3 mt-5 about  ">
 				   <p>I write server-side logic with nestjs using SQL and NoSQL database. I am passionate to learn new things and to improve my skill as a Backend Developer.</p>
-		            <ul class="about-info mt-4 px-md-0 px-2 ">
+					
+				   <p className='pt-3'>I am a seasoned web developer with more than 6 years of full-stack web engineering experience. My expertise in front-end and back-end web development enables me to create dynamic and user-friendly web applications. With my experience, I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.
+				   </p>
+		            {/* <ul class="about-info mt-4 px-md-0 px-2 ">
 		            	<li class="d-flex"><span>Name:</span> <span className='info'>Fredrick Udom</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span > <span className='info'>December 12, </span></li>
 		            	<li class="d-flex"><span>Address:</span> <span className='info'>Uyo, Nigeria</span></li>
 		            	<li class="d-flex"><span>Zip code:</span> <span className='info'>520231</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span className='info'>fredrickudom@gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span className='info'>+234-705-767-9807</span></li>
-		            </ul>
+		            </ul> */}
 				   </div>
 		          </div>
 		        </div>
