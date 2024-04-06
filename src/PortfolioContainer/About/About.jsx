@@ -6,7 +6,7 @@ import "./About.css";
 
 function About() {
 	return (
-		<section class="ftco-about img ftco-section ftco-no-pb pt-5" id="about-section">
+		<section class="ftco-about img ftco-section ftco-no-pb pt-5 my-5" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
 				
