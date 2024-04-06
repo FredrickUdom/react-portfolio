@@ -39,7 +39,7 @@ function About() {
 				   </div>
 		          </div>
 		        </div>
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3 ">
               <div class="text">
               	{/* <p class="mb-4">
 	                <span class="number" data-number="120">0</span>

@@ -20,7 +20,7 @@ const Skill = () => {
 			</div>
 
 			<div class="row justify-content-between ">
-				<div class="col-md-3 text-center d-flex ftco-animate shadow">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow col-sm-8">
 					<a href="#" class="services-1">
 						<span class="">
 							 <i class="flaticon-analysis"></i> 
@@ -32,7 +32,7 @@ const Skill = () => {
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center d-flex ftco-animate shadow">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow col-sm-8">
 					<a href="#" class="services-1">
 						<span class="icon">
 							<img src={typescript} alt="" srcset="" width="70%"/>
@@ -42,7 +42,7 @@ const Skill = () => {
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center d-flex ftco-animate shadow">
+				<div class="col-md-3 text-center d-flex ftco-animate shadow col-sm-8">
 					<a href="#" class="services-1">
 						<span class="icon">
 							<img src={docker} alt="" srcset="" width="30%"/>
