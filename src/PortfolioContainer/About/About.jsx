@@ -12,7 +12,7 @@ function About() {
 				
 			<h2 class="mb-4  pt-5 h2"><p>About Me</p></h2>
     			<div class="col-md-6 col-lg-6 d-flex">
-    				<div class="img-about img d-flex">
+    				<div class="img-about img ">
     					<div class="overlay"></div>
 	    				<div class="img pix2 d-flex align-self-stretch align-items-center">
 							<img src={pix2} alt="" srcset="" />
