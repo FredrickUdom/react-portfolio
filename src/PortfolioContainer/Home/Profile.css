@@ -118,6 +118,86 @@
     border: 2px solid  cornsilk;
 }
 /* MEDIA QUERY */
+
+@media screen and (max-width:256px){
+    .profile-container{
+        width: 100% !important;
+        overflow-x: hidden !important;
+        background-size: cover !important;
+    }
+   .profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14%;
+    min-height: fit-content;
+    background: url('../../assets/img/gradient-blue-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    overflow-x: hidden;
+    
+}
+    .profile-picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px  var(--white);
+        border-radius: 50% !important;
+        height: 150px !important;
+        width: 150px !important;
+        margin: 0 0px 0 20px;
+    }
+    .profile-picture-background{
+        height: 90% !important;
+        width: 90% !important;
+        background: url('../../assets/Home/pix1.jpg');
+        background-size: cover;
+        border-radius: 20%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .profile-picture-background:hover{
+        transform: scale(1.07);
+        transition: 1s ease-out;
+    }
+}
+@media screen and (max-width:292px) and (min-width:256px){
+    .profile-container{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .profile-picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px  var(--white);
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        margin: 0 0px 0 50px;
+    }
+    .profile-picture-background{
+        height: 90%;
+        width: 90%;
+        background: url('../../assets/Home/pix1.jpg');
+        background-size: cover;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .profile-picture-background:hover{
+        transform: scale(1.07);
+        transition: 1s ease-out;
+    }
+
+}
+
+@media screen and (max-width:294px){
+    .profile-container{
+        width: fit-content;
+    }
+}
 @media screen and (max-width:1110px){
     .profile-picture{
         margin: 0 0px 0 80px;
