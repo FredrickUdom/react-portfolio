@@ -11,12 +11,12 @@ function NavBar() {
   return (
     <Navbar expand="lg md sm" className="navbar-area text-primary">
       <Container className='logo'>
-        <Navbar.Brand a href="#profile">{'[< Freddy Kodes />]'} </Navbar.Brand>
+        <Navbar.Brand a href="#">{'[< Freddy Kodes />]'} </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='bg-white'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
             <div className="home">
-            <Nav.Link a href="{{profile}">Home</Nav.Link>
+            <Nav.Link a href="home">Home</Nav.Link>
             </div>
             <Nav.Link a href="#about-section">About</Nav.Link>
             <Nav.Link a href="#skills-section">Skills</Nav.Link>
