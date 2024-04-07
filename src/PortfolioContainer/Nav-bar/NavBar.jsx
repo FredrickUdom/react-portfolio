@@ -12,7 +12,7 @@ function NavBar() {
     <Navbar expand="lg" className="navbar-area text-primary">
       <Container className='logo'>
         <Navbar.Brand a href="#profile">{'< Freddy Kodes />'} </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  className='bg-white'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
             <div className="home">
