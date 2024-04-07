@@ -13,7 +13,7 @@ const Skill = () => {
 		<div class="container">
 			<div class="row justify-content-center py-5 mt-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h2 class="big big-2"><p>Skill</p></h2>
+					<h2 class="big big-2"><p>Services</p></h2>
 					{/* <h2 class="mb-4">Services</h2> */}
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 				</div>

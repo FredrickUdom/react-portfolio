@@ -27,7 +27,9 @@ h2 p{
 
 /* MEDIA QUERY */
 @media screen and (max-width:1170px){
-  
+    /* .content{
+        width: 110%;
+    } */
 }
 @media screen and (max-width:1110px){
     .pix2 img{
