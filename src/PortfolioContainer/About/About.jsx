@@ -45,7 +45,7 @@ function About() {
 	                <span class="number" data-number="120">0</span>
 	                <span>Project complete</span>
                 </p>
-                <p><a href="./resume/myResume.pdf"target="blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
+                <p className='mb-5'><a href="./resume/myResume.pdf"target="blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
               </div>
 	          </div>
 	        </div>

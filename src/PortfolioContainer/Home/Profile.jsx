@@ -35,6 +35,9 @@ function Profile() {
                             <a href="">
                                 <i className="fa fa-twitter" aria-hidden="true"></i>
                             </a>
+                            <a href="">
+                                <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
                         </div>
 
                     </div>

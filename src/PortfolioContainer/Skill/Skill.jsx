@@ -5,7 +5,7 @@ import './Skill.css'
 const Skill = () => {
     return ( 
 
-       <div className="skill row">
+       <div className="skill">
         
 
         
@@ -24,7 +24,7 @@ const Skill = () => {
 					<a href="#" class="services-1">
 						<span class="">
 							 <i class="flaticon-analysis"></i> 
-							<img src={nestjs} alt="" srcset="" width="70%"/>
+							<img src={nestjs} alt="" srcset="" />
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">I write Nestjs for building and developing scalable and maintainable
@@ -35,7 +35,7 @@ const Skill = () => {
 				<div class="col-md-3 text-center d-flex ftco-animate shadow col-sm-8">
 					<a href="#" class="services-1">
 						<span class="icon">
-							<img src={typescript} alt="" srcset="" width="70%"/>
+							<img src={typescript} alt="" srcset="" />
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">I write Typescript and Nodejs when working on a project in Nestjs</h3>
@@ -45,7 +45,7 @@ const Skill = () => {
 				<div class="col-md-3 text-center d-flex ftco-animate shadow col-sm-8">
 					<a href="#" class="services-1">
 						<span class="icon">
-							<img src={docker} alt="" srcset="" width="30%"/>
+							<img src={docker} alt="" srcset="" />
 						</span>
 						<div class="desc">
 							<h3 class="mb-5">Using docker container for building, shipping, and running applications in
