@@ -24,7 +24,7 @@ function App() {
      <NavBar/>
      <Profile/>
      <About/>
-     <Skill/>
+     {/* <Skill/> */}
      
      {/* <Skill/> */}
      {/* <Footer/> */}

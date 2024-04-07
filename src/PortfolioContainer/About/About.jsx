@@ -28,23 +28,23 @@ function About() {
 					
 				   <p className='pt-3'>I am a seasoned web developer with 3 years of Backend web developer experience. My expertise in  back-end web development enables me to create dynamic and user-friendly web applications APIs. With my experience, I guide aspiring developers who are eager to dive into the world of tech through web development, fostering their growth and problem-solving skills.
 				   </p>
-		            {/* <ul class="about-info mt-4 px-md-0 px-2 ">
+		            <ul class="about-info mt-4 px-md-0 px-2 ">
 		            	<li class="d-flex"><span>Name:</span> <span className='info'>Fredrick Udom</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span > <span className='info'>December 12, </span></li>
 		            	<li class="d-flex"><span>Address:</span> <span className='info'>Uyo, Nigeria</span></li>
 		            	<li class="d-flex"><span>Zip code:</span> <span className='info'>520231</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span className='info'>fredrickudom@gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span className='info'>+234-705-767-9807</span></li>
-		            </ul> */}
+		            </ul>
 				   </div>
 		          </div>
 		        </div>
 	          <div class="counter-wrap ftco-animate d-flex mt-md-3 ">
               <div class="text">
-              	{/* <p class="mb-4">
+              	<p class="mb-4">
 	                <span class="number" data-number="120">0</span>
 	                <span>Project complete</span>
-                </p> */}
+                </p>
                 <p><a href="./resume/myResume.pdf"target="blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
               </div>
 	          </div>
