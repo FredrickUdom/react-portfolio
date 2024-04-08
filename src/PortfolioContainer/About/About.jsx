@@ -11,7 +11,7 @@ function About() {
     		<div class="row  content">
 				
 			<h2 class="mb-4  pt-5 h2"><p>About Me</p></h2>
-    			<div class="col-md-4 col-lg-4">
+    			<div class="col-md-4 col-lg-4 col-sm-5">
     				<div class="img-about img ">
     					<div class="overlay"></div>
 	    				<div class="img pix2">
@@ -19,7 +19,7 @@ function About() {
 	    				</div>
     				</div>
     			</div>
-    			<div class="col-md-6 col-lg-6 pl-lg-8 pb-5 context">
+    			<div class="col-sm-7 col-md-6 col-lg-8 pl-lg-8 pb-5 context">
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate ">
 		           

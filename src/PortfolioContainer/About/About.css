@@ -9,7 +9,7 @@ h2 p{
     text-align: center;
 }
 .img img{
-    border-radius: 5px  !important;
+    border-radius: 9px  !important;
     height: 22rem;
 }
 .img img:hover{
@@ -21,6 +21,7 @@ h2 p{
 }
 .about{
     border-radius: 9px !important;
+    line-height: 35px;
     padding:7px 0;
 }
 
@@ -32,12 +33,12 @@ h2 p{
     } */
 }
 @media screen and (max-width:1110px){
-    .pix2 img{
+    /* .pix2 img{
         display: none;
-    }
-    .context{
+    } */
+    /* .context{
         width: 100%;
-    }
+    } */
 
     .profile-details-name{
         font-size: 20px;
