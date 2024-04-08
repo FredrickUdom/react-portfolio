@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <Navbar expand="lg md sm" className="navbar-area text-primary">
       <Container className='logo'>
-        <Navbar.Brand a href="#">{'[< Freddy Kodes />]'} </Navbar.Brand>
+        <Navbar.Brand a href="#">{'< F.U Kodes />'} </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='bg-white'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto linkText">
