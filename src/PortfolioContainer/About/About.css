@@ -27,6 +27,22 @@ h2 p{
 
 
 /* MEDIA QUERY */
+@media screen and (max-width:1020px){
+     .content{
+        flex-direction: column !important;
+        width: 100%!important;
+         margin-left: 50px;
+         
+    }
+    .img{
+        width:  150% !important;
+        margin-left: 50px;
+       
+    }
+    .about{
+        width: 150% !important;
+    }
+}
 @media screen and (max-width:1170px){
     /* .content{
         width: 110%;

@@ -14,7 +14,7 @@ function About() {
     			<div class="col-md-4 col-lg-4 col-sm-5">
     				<div class="img-about img ">
     					<div class="overlay"></div>
-	    				<div class="img pix2">
+	    				<div class="img pix2 ">
 							<img src={pix2} alt="" srcset="" />
 	    				</div>
     				</div>
