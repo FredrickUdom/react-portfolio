@@ -11,7 +11,7 @@ const Project = () => {
 
     <div class="row">
       <div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
-        <a href="#" class="services-1 w-100">
+        <a href="#" class="project-1 w-100">
           <span class="icon">
             <img src={nestjs} alt="" class="img-fluid"/>
           </span>
@@ -21,7 +21,7 @@ const Project = () => {
         </a>
       </div>
       <div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
-        <a href="#" class="services-1 w-100">
+        <a href="#" class="project-1 w-100">
           <span class="icon">
             <img src={typescript} alt="" class="img-fluid"/>
           </span>
@@ -31,7 +31,7 @@ const Project = () => {
         </a>
       </div>
       <div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
-        <a href="#" class="services-1 w-100">
+        <a href="#" class="project-1 w-100">
           <span class="icon">
             <img src={docker} alt="" class="img-fluid"/>
           </span>

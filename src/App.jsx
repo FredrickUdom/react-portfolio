@@ -7,6 +7,8 @@ import Footer from './PortfolioContainer/Home/Footer/Footer';
 import NavBar from './PortfolioContainer/Nav-bar/NavBar';
 import About from './PortfolioContainer/About/About';
 import Skill from './PortfolioContainer/Skill/Skill';
+import Project from './PortfolioContainer/projects/Project';
+import Contact from './PortfolioContainer/ContactMe/Contact';
 
 
 
@@ -25,6 +27,8 @@ function App() {
      <Profile/>
      <About/>
      <Skill/>
+     {/* <Project/> */}
+     <Contact/>
      
      {/* <Skill/> */}
      {/* <Footer/> */}

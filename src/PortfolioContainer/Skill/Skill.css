@@ -17,16 +17,26 @@ h2 p{
 } */
 
 
-.service-section img{
-    height: 100px;
-    width: 150px;
+/* .service-section{
+    height: 5% !important;
+    width: 20%;
     
+} */
+span{
+    justify-content: center;
+    height: 20px;
+    height: 20px;
 }
-.service-section .shadow:hover{
+.service-section img{
+    /* height:50;
+    width:100; */
+}
+.service-section:hover{
     background: black;
     color: aliceblue;
     transition: ease-in-out 0.9s;
     border-radius: 9px;
+    
 }
 @media screen and (max-width:383px){
     .col-md-3{

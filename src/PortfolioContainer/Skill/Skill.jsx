@@ -18,8 +18,8 @@ const Skill = () => {
 						</div>
 					</div>
 
-					<div class="row service-section">
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
+					<div class="row ">
+						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={nestjs} alt="" class="img-fluid " />
@@ -29,7 +29,7 @@ const Skill = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
+						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={typescript} alt="" class="img-fluid" />
@@ -39,7 +39,7 @@ const Skill = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow">
+						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={docker} alt="" class="img-fluid" />
