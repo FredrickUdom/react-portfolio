@@ -1,4 +1,4 @@
-.col-md-3{
+/* .col-md-3{
     width: 30% !important;
     border-radius: 5px;
     line-height: 15px !important;
@@ -8,14 +8,25 @@ h2 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:600;
     text-align: center;
-}
+} */
 /* .desc h3{
     line-height: 30px !important;
 } */
-.col-md-3:hover{
+/* .service-section .shadow{
+    height: 50% !important;
+} */
+
+
+.service-section img{
+    height: 100px;
+    width: 150px;
+    
+}
+.service-section .shadow:hover{
     background: black;
     color: aliceblue;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.9s;
+    border-radius: 9px;
 }
 @media screen and (max-width:383px){
     .col-md-3{

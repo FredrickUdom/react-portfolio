@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import pix2 from '../../assets/Home/pix2.jpg'
-// import "./About.css";
+import "./About.css";
 
 function About() {
 	return (
@@ -14,7 +14,7 @@ function About() {
 					<div class="img-about img ">
 						<div class="overlay"></div>
 						<div class="img pix2 ">
-							<img src={pix2} alt="" class="img-fluid" />
+							<img src={pix2} alt="" class="img-fluid mb-4" />
 						</div>
 					</div>
 				</div>
