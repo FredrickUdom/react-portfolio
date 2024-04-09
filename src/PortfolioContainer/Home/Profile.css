@@ -119,6 +119,17 @@
 }
 /* MEDIA QUERY */
 
+@media screen and (max-width:252px){
+    .profile-picture-background{
+        height: 50%;
+        width: 50%;
+        background: url('../../assets/Home/pix1.jpg');
+        background-size: cover;
+        border-radius: 50% !important;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
 @media screen and (max-width:256px){
     .profile-container{
         width: 100% !important;

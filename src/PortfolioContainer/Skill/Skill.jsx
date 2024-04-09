@@ -1,7 +1,7 @@
 import docker from '../../assets/img/docker.png';
 import nestjs from '../../assets/img/nestjs.png';
 import typescript from '../../assets/img/typescript_node.png';
-import './Skill.css'
+// import './Skill.css'
 const Skill = () => {
 	return (
 
