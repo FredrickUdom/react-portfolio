@@ -18,34 +18,64 @@ const Skill = () => {
 						</div>
 					</div>
 
-					<div class="row ">
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
+					<div class="row gap-5 justify-content-center">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={nestjs} alt="" class="img-fluid " />
 								</span>
-								<div class="desc">
+								<div class="desc pb-3">
 									<h3>I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={nestjs} alt="" class="img-fluid " />
+								</span>
+								<div class="desc pb-3">
+									<h3>I write Nestjs for building scalable server-side APIs</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={typescript} alt="" class="img-fluid" />
 								</span>
-								<div class="desc">
+								<div class="desc pb-3">
 									<h3>I use Typescript and Nodejs with Nestjs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 text-center d-flex ftco-animate shadow service-section">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={typescript} alt="" class="img-fluid" />
+								</span>
+								<div class="desc pb-3">
+									<h3>I use Typescript and Nodejs with Nestjs</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={docker} alt="" class="img-fluid" />
 								</span>
-								<div class="desc">
-									<h3>Using Docker for containerization</h3>
+								<div class="desc pb-3">
+									<h3>Dockerize container for deployment</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+							<a href="#" class="services-1 w-100">
+								<span class="icon">
+									<img src={docker} alt="" class="img-fluid" />
+								</span>
+								<div class="desc pb-3">
+									<h3>Dockerize container for deployment</h3>
 								</div>
 							</a>
 						</div>

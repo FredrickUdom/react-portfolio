@@ -22,25 +22,26 @@ h2 p{
     width: 20%;
     
 } */
-span{
-    justify-content: center;
-    height: 20px;
-    height: 20px;
+
+/* .services img{
+    height: 120px !important;
+    width: 300px !important;
 }
-.service-section img{
-    /* height:50;
-    width:100; */
+.docker img{
+    height: 120px !important;
+    width: 150px !important;
+    text-align: center !important;
 }
-.service-section:hover{
-    background: black;
-    color: aliceblue;
-    transition: ease-in-out 0.9s;
-    border-radius: 9px;
-    
+@media screen and (max-width:991px){
+    .rows{
+        width: 65% !important;
+        height: 60% !important;
+        
+    }
 }
 @media screen and (max-width:383px){
     .col-md-3{
         width: 50% !important;
     }
     
-}
+} */
