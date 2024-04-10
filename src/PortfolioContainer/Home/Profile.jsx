@@ -71,7 +71,7 @@ function Profile() {
                             </span>
                         </span>
                     </div>
-                    <div className="profile-options">
+                    <div className="profile-options mt-5">
                         {/* <button className="btn btn-primary hire-me">
                             {" "}
                             Hire Me 😉{" "}
