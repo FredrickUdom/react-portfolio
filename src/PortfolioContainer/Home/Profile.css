@@ -84,7 +84,7 @@
 }
 
 .colz .colz-icon i{
-    color: black;
+    color: aliceblue;
     padding: 25px;
     padding-left: 0px;
     font-size: 20px;
@@ -92,7 +92,7 @@
 
 .colz .colz-icon i:hover{
     transform: scale(1.5);
-    color: white;
+    color: #111E6C;
 }
 .hire-me{
     background: aliceblue !important;
