@@ -107,8 +107,8 @@
    
 }
 .get-resume{
-    background-color: black !important;
-    color: cornsilk !important;
+    background-color: cornsilk !important;
+    color: black !important;
     padding: 12px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-weight: bold;
@@ -273,5 +273,10 @@
 
     .profile-details{
         width: 90%;
+    }
+
+    .profile-options .highlighted-btn{
+        margin-top: 15px !important;
+        margin-bottom: 5px !important;
     }
 }
