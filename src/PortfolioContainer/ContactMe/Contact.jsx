@@ -13,7 +13,7 @@ const Contact = () => {
 				<div class="col-md-6 order-md-last d-flex">
 					
 					<form action="#" class="shadow p-4 p-md-5 contact-form bg-light">
-						<h3 className='text-center pb-3'>Let's Connect Via Mail</h3>
+						<h5 className='text-center pb-3'>Let's Connect Via Mail</h5>
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Your Name"/>
 						</div>
