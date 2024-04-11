@@ -2,7 +2,7 @@ import'./Contact.css'
 const Contact = () => {
     return ( 
 
-		<div className="container contact mt-3 mb-3">
+		<div className="container contact mt-3 mb-5 mt-5">
 		
 		<div className="content">
 
@@ -11,7 +11,9 @@ const Contact = () => {
 
 			<div class="row no-gutters block-9 ">
 				<div class="col-md-6 order-md-last d-flex">
+					
 					<form action="#" class="shadow p-4 p-md-5 contact-form bg-light">
+						<h3 className='text-center pb-3'>Let's Connect Via Mail</h3>
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Your Name"/>
 						</div>
