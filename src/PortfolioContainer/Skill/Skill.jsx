@@ -13,7 +13,7 @@ const Skill = () => {
 				<div class="container">
 					<div class="row justify-content-center py-2">
 						<div class="col-md-12 heading-section text-center ftco-animate">
-							<h2 class="big big-2"><p>Services</p></h2>
+						<h2 class="mb-4 pt-5 h2 text-center"><p>Service</p></h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 						</div>
 					</div>
@@ -45,7 +45,7 @@ const Skill = () => {
 									<img src={typescript} alt="" class="img-fluid" />
 								</span>
 								<div class="desc pb-3">
-									<h3>I use Typescript and Nodejs with Nestjs</h3>
+									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
@@ -55,27 +55,27 @@ const Skill = () => {
 									<img src={typescript} alt="" class="img-fluid" />
 								</span>
 								<div class="desc pb-3">
-									<h3>I use Typescript and Nodejs with Nestjs</h3>
+									<h3>I use Typescript and Nodejs with Nestjs I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={docker} alt="" class="img-fluid" />
 								</span>
 								<div class="desc pb-3">
-									<h3>Dockerize container for deployment</h3>
+									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow services">
+						<div class="col-lg-3 col-md-6 text-center d-flex ftco-animate shadow docker">
 							<a href="#" class="services-1 w-100">
 								<span class="icon">
 									<img src={docker} alt="" class="img-fluid" />
 								</span>
 								<div class="desc pb-3">
-									<h3>Dockerize container for deployment</h3>
+									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
 								</div>
 							</a>
 						</div>

@@ -3,12 +3,13 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import Profile from './PortfolioContainer/Home/Profile';
-import Footer from './PortfolioContainer/Home/Footer/Footer';
+
 import NavBar from './PortfolioContainer/Nav-bar/NavBar';
 import About from './PortfolioContainer/About/About';
 import Skill from './PortfolioContainer/Skill/Skill';
 import Project from './PortfolioContainer/projects/Project';
 import Contact from './PortfolioContainer/ContactMe/Contact';
+import FooterArea from './PortfolioContainer/Footer/Footer';
 
 
 
@@ -29,6 +30,9 @@ function App() {
      <Skill/>
      {/* <Project/> */}
      <Contact/>
+     <FooterArea/>
+     
+     
      
      {/* <Skill/> */}
      {/* <Footer/> */}

@@ -125,6 +125,11 @@
 }
 /* MEDIA QUERY */
 
+@media screen and (max-width:810px){
+    .profile-options a{
+        margin-bottom: 20px !important;
+    }
+}
 @media screen and (max-width:252px){
     .profile-picture-background{
         height: 50%;
