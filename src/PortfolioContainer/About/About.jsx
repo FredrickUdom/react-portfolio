@@ -29,7 +29,7 @@ function About() {
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
-							<p><a href="./resume/myResume.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
+							<p><a href="./resume/myResume.pdf" target="_blank" class="btn btn-primary py-3 px-3 download-btn">Download Resume</a></p>
 						</div>
 					</div>
 				</div>
