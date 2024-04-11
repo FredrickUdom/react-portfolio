@@ -1,3 +1,4 @@
+import'./Contact.css'
 const Contact = () => {
     return ( 
 
@@ -25,7 +26,7 @@ const Contact = () => {
 								placeholder="Message"></textarea>
 						</div>
 						<div class="form-group pt-3">
-							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5"/>
+							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5 contact-btn"/>
 						</div>
 					</form>
 				</div>					
