@@ -24,19 +24,24 @@ function Profile() {
                                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
                             </a>
                             <a href="">
-                                <i className="fa fa-google-plus-square" aria-hidden="true"></i>
+                                <i className="fa fa-whatsapp" aria-hidden="true"></i>
                             </a>
+                            {/* <a href="">
+                                <i className="fa fa-google-plus-square" aria-hidden="true"></i>
+                            </a> */}
                             <a href="">
                                 <i className="fa fa-instagram" aria-hidden="true"></i>
                             </a>
-                            <a href="">
+                            {/* <a href="">
                                 <i className="fa fa-youtube-square" aria-hidden="true"></i>
-                            </a>
+                            </a> */}
                             <a href="">
                                 <i className="fa fa-twitter" aria-hidden="true"></i>
                             </a>
+                            
                             <a href="">
-                                <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <i class="fa fa-github" aria-hidden="true"></i>
                             </a>
                         </div>
 
@@ -81,8 +86,8 @@ function Profile() {
 
                     </div>
                 </div>
-                <div className="profile-picture">
-                    <div className="profile-picture-background" id="profile">
+                <div className="profile-picture mb-3">
+                    <div className="profile-picture-background " id="profile">
 
                     </div>
                 </div>

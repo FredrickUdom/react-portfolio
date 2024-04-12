@@ -1,8 +1,10 @@
 import docker from '../../assets/img/docker.png';
 import nestjs from '../../assets/img/nestjs.png';
 import typescript from '../../assets/img/typescript_node.png';
-import './Skill.css'
+import './Skill.css';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 const Skill = () => {
+	const now = 100;
 	return (
 
 		<div className="skill">
@@ -76,6 +78,9 @@ const Skill = () => {
 								</span>
 								<div class="desc pb-3">
 									<h3>Dockerize container for deployment I write Nestjs for building scalable server-side APIs</h3>
+									
+									<ProgressBar now={now} label={`${now}%`} />
+									
 								</div>
 							</a>
 						</div>
